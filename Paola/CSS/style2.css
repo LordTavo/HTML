@@ -1,0 +1,80 @@
+header {
+	background: rgba(0,0,0,0.7);
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+body{
+	background-color: #ffdd90;
+	background-image: url("../images/Garabatos\ Sobre\ Fondo\ De\ Pizarra.jpg");
+	
+}
+
+nav{
+	float: left;
+	text-align: center;
+}
+
+nav ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+nav ul li{
+	float: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+nav ul li a{
+	display: block;
+	padding: 20px;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+nav ul li :hover{
+	color: black;
+	background: #ffdd90;
+}
+
+div {
+	height: 100%;
+	width: 100%;
+	text-align: justify;
+	justify-content: center
+}
+
+.definicion {
+	color: #FFFFFF;
+}
+
+h1{
+	text-align: center;
+	color: #ffdd90;
+}
+
+h1 :hover{
+	text-align: center;
+	color: aquamarine;
+}
+
+p{
+	font-family: Verdana;
+	font-style: italic;
+	color: #FFFFFF;
+	text-align: justify;
+}
+
+p1{
+	font-family: Verdana;
+	font-style: italic;
+	color: #FFFFFF;
+	text-align: justify;
+}
+img{
+	height: 50px;
+	width: 50px;
+}
